@@ -1,0 +1,8 @@
+{
+  "name": "v-model-bug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "d0349528"
+}

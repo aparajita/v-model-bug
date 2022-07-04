@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "v-model-bug",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
