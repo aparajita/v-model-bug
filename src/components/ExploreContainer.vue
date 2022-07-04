@@ -1,19 +1,16 @@
 <template>
   <div id="container">
-    <strong>{{ name }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <IonInput type="number" v-model="options.number" />
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import { reactive } from 'vue'
+import { IonInput } from '@ionic/vue'
 
-export default defineComponent({
-  name: 'ExploreContainer',
-  props: {
-    name: String
-  }
-});
+const options = reactive({
+  number: 0
+})
 </script>
 
 <style scoped>
